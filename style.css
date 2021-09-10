@@ -1,6 +1,86 @@
+/* common rules*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(./img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+/* debug rules */
+.debug header {
+    height: 1250px;
+}
+
+/* header rules */
+nav {
+    padding: 25px 0;
+}
+
+nav > ul {
+    text-align: center;
+    margin-left: 750px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav > a, nav > ul {
+    float: left;
+}
+
+nav > button {
+    float: right;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 10px 14px;
+}
+
+.main_title {
+    color: white;
+    text-align: center;
+     width: 20%;
+}
+
+.main_title > h1 {
+    font-size: 56px;
+}
+
+.main_title > p {
+    font-size: 20px;
+}
+
+a > img {
+    line-height: 38px;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    line-height: 38px;
+    font-weight: 600;
+} 
