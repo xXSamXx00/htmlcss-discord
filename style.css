@@ -13,6 +13,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 1440px;
+    margin: auto;
 }
 
 header {
@@ -25,9 +27,6 @@ header {
     width: 70%;
     margin: auto;
 }
-
-/* debug rules */
-
 
 /* header rules */
 nav {
@@ -61,8 +60,8 @@ nav > a {
     background-color: white;
     border: 1px solid white;
     border-radius: 40px;
-    font-size: 14px;
-    padding: 10px 14px;
+    font-size: 12px;
+    padding: 7px 10px;
     text-decoration: none;
     color: #23272A;
     font-weight: bold;
@@ -90,6 +89,7 @@ nav > a {
 
 a > img {
     line-height: 38px;
+    width: 52%;
 }
 
 li > a {
@@ -97,7 +97,8 @@ li > a {
     color: white;
     margin: 10px;
     padding: 10px;
-    line-height: 38px;
+    line-height: 30px;
+    font-size: 14px;
     font-weight: 600;
 }
 
@@ -124,7 +125,7 @@ li > a {
     margin-left: 20px;
 }
 
-i {
+.black_download > i, .blue_download > i {
     margin-right: 10px;
 }
 
@@ -230,4 +231,98 @@ i {
     margin-bottom: 50px;
     font-size: 25px;
     color: #23272A;
+}
+
+/* footer rules */
+footer {
+    background-color: #23272A;
+}
+
+.footer_padding {
+    padding: 80px 0 30px;
+}
+
+.big_column {
+    float: left;
+    width: 33.33%;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.big_column > h3 {
+    color: #7289DA;
+    font-size: 26px;
+}
+
+.big_column img {
+    width: 6%;
+}
+
+.language, .social > a {
+    color: white;
+}
+
+.language {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.language i {
+    margin-left: 5px;
+}
+
+.social > a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.row > a {
+    float: left;
+    width: 50%;
+}
+
+.row > .signin {
+    float: left;
+    width: 50%;
+    text-align: end;
+}
+
+.column a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.column h4 {
+    color: #7289DA;
+}
+
+.row {
+    padding: 30px 0 80px;
+    border-top: 1px solid #48557D;
+}
+
+.row img {
+    width: 22%;
+}
+
+.signin > a {
+    background-color: #8EA1E1;
+    border: 1px solid #8EA1E1;
+    border-radius: 40px;
+    font-size: 12px;
+    padding: 7px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
