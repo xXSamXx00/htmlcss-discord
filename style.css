@@ -42,11 +42,11 @@ nav li {
     display: inline-block;
 }
 
-nav > a, nav > ul, nav > .login {
+nav > .logo, nav > ul, nav > .login {
     float: left;
 }
 
-nav > a {
+nav > .logo {
     width: 20%;
 }
 
@@ -88,8 +88,8 @@ nav > a {
 }
 
 a > img {
-    line-height: 38px;
     width: 52%;
+    padding-top: 2px;
 }
 
 li > a {
